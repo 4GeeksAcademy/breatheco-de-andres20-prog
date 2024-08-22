@@ -1,0 +1,143 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andrés
+    last_name: Arreaza
+    
+    # Define yourself in 4-5 words
+    motto: Creative, analytical, collaborative and efficient.
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona apasionada por el mundo de la programación. Me gusta afrontar nuevos retos, ya que estos me permiten superarme. Si desconozco algo, me encargo de informarme hasta entenderlo completamente.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/112995166?s=400&u=b817e93c7731714359051262c0c3e6124f9d39e1&v=4
+
+    # Contact Information
+    email: aearreaza5@gmail.com #optional
+    phone: 0420-1863739 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/andres-arreaza-1a6235252 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: andres20-prog
+    
+    twitter: 'Andres_arreaza1' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Karate
+
+      - item: Game
+
+      - item: Play video games
+
+# Your previous education
+education:
+    - degree: Licenciatura en Computación
+      university: Universidad Nueva Esparta
+      # optional
+      university_logo: https://une.edu.ve/wp-content/uploads/2023/03/Universidad-Nueva-Esparta-UNE-logo4-1-300x120.png
+      time: 2020 - 2024
+      details: |
+        Mis estudios en ciencias computcionales fue una experiencia maravillosa, me hizo enamorarme de la programación, estudie en la Universidad Nueva Espara en el 2020 y sigo cursando la carrera a dia de hoy, planeo graduarme a finales del 2025.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Developer Full Stack
+      time: 2024
+      company: Tecno Capital C.A.
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-8YLVck8KHB8ZNDvERs5uOFECNSQkzdMdw&s
+      details: |
+        Estuve desarrollando un módulo de gestión de almacenes, el cual permitiría a los administradores almacenar y llevar un control de los medicamentos e insumos.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
