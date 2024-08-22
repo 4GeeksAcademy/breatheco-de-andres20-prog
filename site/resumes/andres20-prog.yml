@@ -13,16 +13,16 @@ basic_info:
     last_name: Arreaza
     
     # Define yourself in 4-5 words
-    motto: Creative, analytical, collaborative and efficient.
+    motto: Creativo, analítico, colaborativo y eficiente.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Programar
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Soy una persona apasionada por el mundo de la programación. Me gusta afrontar nuevos retos, ya que estos me permiten superarme. Si desconozco algo, me encargo de informarme hasta entenderlo completamente.
+      Soy una persona apasionada por el mundo de la programación. Me gusta afrontar nuevos retos, ya que estos me permiten superarme. Si desconozco algo, me encargo de informarme hasta entenderlo completamente. Además, disfruto trabajando en equipo y siempre busco oportunidades para mejorar mis habilidades. 
 
-      Second paragraph if required.
+      Me considero una persona proactiva y orientada a resultados. Siempre estoy en busca de nuevas tecnologías y metodologías que puedan optimizar mi trabajo y el de mi equipo. Mi objetivo es contribuir de manera significativa a los proyectos en los que participo, asegurando calidad y eficiencia en cada entrega.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -31,7 +31,7 @@ basic_info:
     # Contact Information
     email: aearreaza5@gmail.com #optional
     phone: 0420-1863739 #optional
-    website: asd.com #optional
+    website: #optional
     linkedin: www.linkedin.com/in/andres-arreaza-1a6235252 #optional
     
     #
@@ -54,7 +54,7 @@ basic_info:
     interests:
       - item: Karate
 
-      - item: Game
+      - item: Rugby
 
       - item: Play video games
 
@@ -66,7 +66,7 @@ education:
       university_logo: https://une.edu.ve/wp-content/uploads/2023/03/Universidad-Nueva-Esparta-UNE-logo4-1-300x120.png
       time: 2020 - 2024
       details: |
-        Mis estudios en ciencias computcionales fue una experiencia maravillosa, me hizo enamorarme de la programación, estudie en la Universidad Nueva Espara en el 2020 y sigo cursando la carrera a dia de hoy, planeo graduarme a finales del 2025.
+        Mis estudios en ciencias computacionales fueron una experiencia maravillosa; me hicieron enamorarme de la programación. Estudié en la Universidad Nueva Esparta en 2020 y sigo cursando la carrera hasta el día de hoy. Planeo graduarme a finales de 2025.
 
           - Bullet point
           - Bullet point
@@ -88,8 +88,7 @@ experiences:
 projects:
     intro: >
       You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      section. 
 
     assignments:
       - title: Velocity
